@@ -40,7 +40,6 @@ func initFlags() (string, bool) {
 
 func openEditor(fileName string) error {
 	editor := os.Getenv("EDITOR")
-	log.Println(editor)
 	if editor == "" {
 		editor = "vi"
 	}
