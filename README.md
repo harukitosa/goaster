@@ -28,23 +28,13 @@ mv goaster $HOME/bin/go
 
 ※\$HOME/bin/go に PATH を通しておいてください
 
-実行例
-
-```
-goaster main.go
-goaster main.go -w
-```
-
-# 概要
-
-editor で指定した go ファイルの抽象構文木を閲覧する
+# 実行例
 
 ```
 goaster main.go
 ```
 
 ![goaster](https://user-images.githubusercontent.com/44115752/92212447-ef139b00-eecc-11ea-8823-b88e82ab350a.gif)
-
 
 指定したファイルの抽象構文木がかかれたファイルを生成する
 
