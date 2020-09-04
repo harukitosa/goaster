@@ -2,6 +2,39 @@
 
 golang の抽象構文木を生成してエディターで閲覧できるコマンドです
 
+コマンドライン上で対象ファイルの抽象構文木を簡単に閲覧することができます。
+
+# How to download and build
+
+install
+
+```
+go get github.com/harukitosa/goaster
+```
+
+or
+
+```
+git clone https://github.com/harukitosa/goaster
+```
+
+build
+
+```
+cd cmd/goaster/
+go build
+mv goaster $HOME/bin/go
+```
+
+※\$HOME/bin/go に PATH を通しておいてください
+
+実行例
+
+```
+goaster main.go
+goaster main.go -w
+```
+
 # 概要
 
 editor で指定した go ファイルの抽象構文木を閲覧する
@@ -16,7 +49,7 @@ goaster main.go
 goaster main.go -w
 ```
 
-# 注意
+# メモ
 
 ast/ ディレクトリ以下は go/ast の関数 Fprintf の出力のフォーマットのみ変更したファイルです
 
