@@ -43,6 +43,9 @@ editor で指定した go ファイルの抽象構文木を閲覧する
 goaster main.go
 ```
 
+![goaster](https://user-images.githubusercontent.com/44115752/92212447-ef139b00-eecc-11ea-8823-b88e82ab350a.gif)
+
+
 指定したファイルの抽象構文木がかかれたファイルを生成する
 
 ```
